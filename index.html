@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Healthcare Monitoring</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Healthcare Monitoring System</h1>
+
+  <form id="vitalsForm">
+    <input type="number" id="bp" placeholder="Blood Pressure" required>
+    <input type="number" id="sugar" placeholder="Sugar Level" required>
+    <input type="number" id="hr" placeholder="Heart Rate" required>
+    <input type="number" id="temp" placeholder="Temperature" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <canvas id="vitalsChart"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
